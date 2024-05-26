@@ -5,3 +5,7 @@ console.log(fruits.length);
 for (const fruit of fruits) {
     console.log(fruit);
 }
+
+fruits.forEach(fruit => {
+    console.log(fruit.length);
+});
